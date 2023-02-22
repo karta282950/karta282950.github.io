@@ -335,9 +335,14 @@ img.eqwl {
 	margin: 0;
 }
 
-table {
+/*table {
     border: 2px solid black;
     border-collapse: collapse;
+}*/
+
+table {
+    border: 0px solid black;
+    border-collapse: none;
 }
 
 td {
