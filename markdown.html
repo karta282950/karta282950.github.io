@@ -24,15 +24,15 @@
         <tr valign="top">
             <td id="layout-menu">
                 <div class="menu-category">Menu</div>
-                <div class="menu-item"><a href="index.html" class="current">Home</a></div>
+                <div class="menu-item"><a href="index.html">Home</a></div>
                 <div class="menu-item"><a href="project.html">Project Demo</a></div>
-                <div class="menu-item"><a href="markdown.html">Mardown</a></div>
+                <div class="menu-item"><a href="markdown.html" class="current">Mardown</a></div>
 
                 <div class="menu-category">My Work</div>
-                <div class="menu-item"><a href="https://www.cakeresume.com/karta282950">CakeResume</a></div>
-                <div class="menu-item"><a href="https://github.com/karta282950">GitHub</a></div>
-                <div class="menu-item"><a href="https://www.zhihu.com/people/karta282950">知乎</a></div>
-                <div class="menu-item"><a href="https://www.linkedin.com/in/kerry-sun-2b66b1256/">Linkedin</a></div>
+        <div class="menu-item"><a href="https://www.cakeresume.com/karta282950" target="_blank">CakeResume</a></div>
+        <div class="menu-item"><a href="https://github.com/karta282950" target="_blank">GitHub</a></div>
+        <div class="menu-item"><a href="https://www.zhihu.com/people/karta282950" target="_blank">知乎</a></div>
+        <div class="menu-item"><a href="https://www.linkedin.com/in/kerry-sun-2b66b1256/" target="_blank">Linkedin</a></div>
 
             </td>
             <td id="layout-content">
@@ -55,9 +55,12 @@
                         </td>
                     </tr>
                 </table>
+
+                <div id="content"></div>
+                <script
+                    src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+                <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+                <zero-md src="index.md"></zero-md>
     </table>
-    <div id="content"></div>
-    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
-    <zero-md src="index.md"></zero-md>
+
 </body>
