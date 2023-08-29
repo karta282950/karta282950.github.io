@@ -1,6 +1,8 @@
 /* Default css file for jemdoc. */
-
-
+* {
+    padding:0;
+    margin:0;
+}
 
 table#tlayout {
 	border: none;
