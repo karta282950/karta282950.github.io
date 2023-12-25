@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fuck</title>
+  <title>跑馬燈示例</title>
+  <style>
+    .marquee {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .marquee p {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 15s linear infinite;
+    }
+    @keyframes marquee {
+      0%   { transform: translate(0, 0); }
+      100% { transform: translate(-100%, 0); }
+    }
+  </style>
 </head>
 <body>
-    
+  <div class="marquee">
+    <!--<p>這裡是跑馬燈內容。你可以在這裡放置連結到其他網站的文字。</p>-->
+    <a href="tmp/index.html">新版</a>
+  </div>
 </body>
 </html>
